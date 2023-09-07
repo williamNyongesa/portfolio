@@ -23,14 +23,14 @@ function Home() {
           <li className="item">
             <h2> Front-End</h2>
             <span>
-              ReactJS, HTML, CSS,  NPM,
+              ReactJS, HTML, CSS,JavaScript  NPM,
               Iconic, BootStrap, MaterialUI
             </span>
           </li>
           <li className="item">
             <h2>Back-End</h2>
             <span>
-               python
+               python, JavaScript
             </span>
           </li>
           <li className="item">
