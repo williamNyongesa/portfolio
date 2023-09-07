@@ -1,0 +1,34 @@
+/* ProjectDisplay.css */
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .project h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .project img {
+    max-width: 100%; /* Set a maximum width to fit the container */
+    max-height: 300px; /* Set a maximum height (adjust as needed) */
+    width: auto; /* Maintain aspect ratio */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px;
+  }
+  
+  .project p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the GitHub icon from MUI icons */
+  .MuiSvgIcon-root {
+    font-size: 40px;
+    color: #333; /* Change the color as needed */
+  }
+  

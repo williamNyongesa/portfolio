@@ -8,7 +8,7 @@ export const projectList = [
     skills: "JavaScript,HTML,CSS",
   },
   {
-    name: "first Project",
+    name: "My Safari Map",
     image:pic2,
     skills: "React,JavaScript,HTML,CSS",
   }

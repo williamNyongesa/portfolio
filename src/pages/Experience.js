@@ -19,27 +19,27 @@ function Experience() {
           <p>i achieved a ...</p>
       </VerticalTimelineElement>
 
-        <VerticalTimelineElement className='vertical-timeline-element--education'
-        date='2010-2014'
-        iconStyle={{background:"#5cad23", color: "#fff"}}
-        icon={<School/>}     
-        >
-          <h3 className='vertical-timeline-element-title'>
-            my random school in a certain place
-          </h3>
-          <p>i achieved a ...</p>
-        </VerticalTimelineElement>
-
-        <VerticalTimelineElement className='vertical-timeline-element--education'
-        date='2010-2014'
-        iconStyle={{background:"#6ce813", color: "#fff"}}
-        icon={<Work/>}     
-        >
-          <h3 className='vertical-timeline-element-title'>
-            my random school in a certain place
-          </h3>
-          <p>i achieved a ...</p>
+      <VerticalTimelineElement className='vertical-timeline-element--education'
+      date='2010-2014'
+      iconStyle={{background:"#5cad23", color: "#fff"}}
+      icon={<School/>}     
+      >
+        <h3 className='vertical-timeline-element-title'>
+          my random school in a certain place
+        </h3>
+        <p>i achieved a ...</p>
       </VerticalTimelineElement>
+
+      <VerticalTimelineElement className='vertical-timeline-element--education'
+      date='2010-2014'
+      iconStyle={{background:"#6ce813", color: "#fff"}}
+      icon={<Work/>}     
+      >
+        <h3 className='vertical-timeline-element-title'>
+          my random school in a certain place
+        </h3>
+        <p>i achieved a ...</p>
+    </VerticalTimelineElement>
 
 
 
