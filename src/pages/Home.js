@@ -1,6 +1,7 @@
 import { Email, GitHub, LinkedIn } from '@mui/icons-material'
 import React from 'react'
 import "../styles/Home.css"
+import { Link } from 'react-router-dom'
 
 function Home() {
   return (
@@ -10,9 +11,10 @@ function Home() {
         <br />
         <div className="prompt">
           <p>A software developer with a passion for learning and creating.</p>
-          <LinkedIn />
-          <Email />
-          <GitHub />
+          <Link to="https://www.linkedin.com/in/william-nyongesa-a2a064241/"><LinkedIn /></Link>
+          <Link to="https://mail.google.com/mail/u/0/?pli=1#inbox?compose=GTvVlcSDXmZzpcmzQqWFBzlgMVGFjJQcMsrNnCtPnmTWHllXlmMWPBFRvQBjjzLFJdBLZhPGfpZlV"><Email/></Link>
+          <Link to="https://github.com/williamNyongesa"><GitHub /></Link>
+          
         </div>
       </div>
       <div className="skills">

@@ -9,11 +9,14 @@ function Footer() {
     <div className='footer'>
         <div className='socialMedia'>
             <Link to="https://www.instagram.com/"><Instagram/></Link>
-            <Twitter/>
-            <Facebook/>
-            <Email/>
+
+            <Link to="https://twitter.com/home?utm_source=homescreen&utm_medium=shortcut"><Twitter/></Link>
+
+            <Link to="https://web.facebook.com/?_rdc=1&_rdr"><Facebook/></Link>
+
+            <Link to="https://mail.google.com/mail/u/0/?pli=1#inbox?compose=GTvVlcSDXmZzpcmzQqWFBzlgMVGFjJQcMsrNnCtPnmTWHllXlmMWPBFRvQBjjzLFJdBLZhPGfpZlV"><Email/></Link>
         </div>
-        <p>&copy; 2023</p>
+        <p>&copy; 2023 https://portfolio-williamnyongesa.vercel.app/</p>
     </div>
   )
 }

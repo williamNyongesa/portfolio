@@ -3,6 +3,7 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 import { projectList } from '../helpers/projectList';
 import "../styles/ProjectDisplay.css"
+import { Link } from 'react-router-dom'
 
 function ProjectDisplay() {
     const { id } =useParams();
@@ -12,7 +13,7 @@ function ProjectDisplay() {
         <h1>{project.name}</h1>
         <img src={project.image}/>
         <p>{project.skills}</p>
-        <GitHub/>
+        <Link to={project.link}><GitHub/></Link>
     </div>
   );
 }
