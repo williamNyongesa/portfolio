@@ -37,6 +37,15 @@ function Home() {
             <h2>Languages</h2>
             <span>JavaScript, Python</span>
           </li>
+
+          <li className="item">
+            <h2> other</h2>
+            <span>
+              System Design, git, jira, Docker, Kubernetes
+            </span>
+          </li>
+
+
         </ol>
       </div>
     </div>

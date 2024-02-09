@@ -16,7 +16,7 @@ function Footer() {
 
             <Link to="https://mail.google.com/mail/u/0/?pli=1#inbox?compose=GTvVlcSDXmZzpcmzQqWFBzlgMVGFjJQcMsrNnCtPnmTWHllXlmMWPBFRvQBjjzLFJdBLZhPGfpZlV"><Email/></Link>
         </div>
-        <p>&copy; 2023 https://portfolio-williamnyongesa.vercel.app/</p>
+        <p>&copy; 2023 <Link to="https://portfolio-williamnyongesa.vercel.app/">Iam-William.com</Link></p>
     </div>
   )
 }
