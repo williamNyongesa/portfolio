@@ -41,7 +41,7 @@ function Home() {
           <li className="item">
             <h2> other</h2>
             <span>
-              System Design, git, jira, Docker, Kubernetes
+              System Design, git, jira, Docker,playwright, Kubernetes
             </span>
           </li>
 
